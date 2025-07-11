@@ -1,3 +1,9 @@
+# Use Pearson-Chi Square Statistic (Associated Word: How Much More Frequent Does the Word Show Up)
+# Next Step: Feature Selection/Lexicon Building; Provide Ranking and Prioritization of Tokens
+# Update: Use a stopword imported library to remove irrelevant/insignificant words that don't add anything to the library
+# NOTE WHEN RUNNING: YOU NEED ONE OF THE CATEGORY DATA (preferrably json file) in order to run the code. PLEASE FORMAT YOUR INPUT IN THE TERMINAL LIKE THIS:
+# python impulse_tracker.py < 'file_name'. Please contact Gavin Gong for any issues.
+
 import re, sys, json, datetime as dt
 from collections import Counter
 import argparse
