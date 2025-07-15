@@ -12,8 +12,13 @@ import re, sys, json, datetime as dt, csv, os
 from collections import Counter
 import argparse
 
-from sklearn.feature_extraction import text
-EN_STOP = set(text.ENGLISH_STOP_WORDS)
+# Improved stopword filtering (with fallback if sklearn not available)
+try:
+    from sklearn.feature_extraction import text
+    EN_STOP = set(text.ENGLISH_STOP_WORDS)
+except ImportError:
+    EN_STOP = {"a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "has", "he", "in", "is", "it", "its", "of", "on", "that", "the", "to", "was", "were", "will", "with", "the", "this", "but", "they", "have", "had", "what", "said", "each", "which", "do", "how", "their", "if", "up", "out", "many", "then", "them", "these", "so", "some", "her", "would", "make", "like", "into", "him", "time", "has", "two", "more", "go", "no", "way", "could", "my", "than", "first", "been", "call", "who", "oil", "sit", "now", "find", "down", "day", "did", "get", "come", "made", "may", "part"}
+
 EXTRA_STOP = {"not", "just", "even", "really", "don", "didn", "don't"}
 STOP = EN_STOP | EXTRA_STOP
 
