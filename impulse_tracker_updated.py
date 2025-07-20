@@ -6,7 +6,14 @@
 # IF YOU ARE GOING TO EXTRACT FROM THE CSV FILE, PLEASE DO NOT MIX THE KEYWORDS; you may modify the argparse section to include your NEW CSV FILE PATH
 # PLEASE FORMAT YOUR INPUT IN THE TERMINAL LIKE THIS:
 # python impulse_tracker.py < 'file_name'. If you adding a csv file link, you need to add the argument in between
-# Please contact Gavin Gong for any issues.
+
+# UPDATE: To append to master csv, you need two more arguments
+# Observe the format below:
+python impulse_keywords.py \
+   --source Baby_Products \
+   --master_csv keywords/master_impulse_keywords.csv \
+   < review_data/Baby_Products.jsonl
+# Please contact Gavin Gong for any issues. 
 
 import re, sys, json, datetime as dt, csv, os
 from collections import Counter
