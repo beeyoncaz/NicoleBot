@@ -1,3 +1,11 @@
+# Documentation
+# python sentiment_qualifier.py \
+  --master_csv keywords/master_impulse_keywords.csv \
+  --out_csv    keywords/master_impulse_with_sentiment.csv
+# Argument 1: Your csv file (master_csv, my_csv, wtvr)
+# Argument 2: Your output csv file (name)
+# Please ensure you are in proper directory with csv file
+
 import argparse
 import pandas as pd
 from transformers import pipeline
