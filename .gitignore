@@ -1,3 +1,5 @@
 environment.yml
 data/*
+*.png
+sentiment_results.json
 __pycache__/*
