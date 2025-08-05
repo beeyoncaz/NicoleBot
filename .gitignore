@@ -1,5 +1,35 @@
-environment.yml
-data/*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
+*.jsonl
+*.jsonl.gz
+*.gz
+
+# Generated files
 *.png
 sentiment_results.json
-__pycache__/*
+reviews.json
+environment.yml
+
+# Logs
+*.log
