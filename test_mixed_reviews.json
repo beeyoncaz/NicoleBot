@@ -1,0 +1,62 @@
+[
+  {
+    "review_id": "R1",
+    "reviewer_name": "Sarah M.",
+    "rating": 5.0,
+    "title": "Absolutely love this product!",
+    "date": "December 15, 2023",
+    "verified_purchase": true,
+    "text": "This product exceeded all my expectations. The build quality is excellent, arrived quickly, and works perfectly. I've been using it daily for 3 months now and it still looks brand new. Highly recommend!",
+    "helpful_votes": 12
+  },
+  {
+    "review_id": "R2",
+    "reviewer_name": "Mike Johnson",
+    "rating": 1.0,
+    "title": "Terrible quality, broke after one week",
+    "date": "December 10, 2023",
+    "verified_purchase": true,
+    "text": "Complete waste of money. The product broke after just one week of normal use. Customer service was unhelpful and refused to provide a refund. Save your money and buy something else. Very disappointed.",
+    "helpful_votes": 8
+  },
+  {
+    "review_id": "R3",
+    "reviewer_name": "Jennifer L.",
+    "rating": 3.0,
+    "title": "It's okay, nothing special",
+    "date": "December 12, 2023",
+    "verified_purchase": true,
+    "text": "The product works as described but I'm not blown away. It does the job but the quality is just average. Price is reasonable for what you get. Not bad but not great either.",
+    "helpful_votes": 5
+  },
+  {
+    "review_id": "R4",
+    "reviewer_name": "Robert Chen",
+    "rating": 4.0,
+    "title": "Good value with some minor issues",
+    "date": "December 8, 2023",
+    "verified_purchase": true,
+    "text": "Overall I'm satisfied with this purchase. It works well and the price is good. However, the instructions could be clearer and the packaging could be better. Still recommend it though.",
+    "helpful_votes": 15
+  },
+  {
+    "review_id": "R5",
+    "reviewer_name": "Lisa K.",
+    "rating": 2.0,
+    "title": "Mixed feelings about this",
+    "date": "December 5, 2023",
+    "verified_purchase": false,
+    "text": "I have mixed feelings about this product. On one hand, it does what it's supposed to do and the price is fair. On the other hand, the quality seems cheap and it's smaller than expected. Not sure if I'd recommend it.",
+    "helpful_votes": 3
+  },
+  {
+    "review_id": "R6",
+    "reviewer_name": "Tom Bradley",
+    "rating": 3.0,
+    "title": "Average product, meets expectations",
+    "date": "November 25, 2023",
+    "verified_purchase": true,
+    "text": "This is exactly what I expected - an average product at an average price. It works fine but nothing special. Build quality is acceptable, nothing to complain about but nothing to rave about either.",
+    "helpful_votes": 2
+  }
+] 
